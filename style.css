@@ -96,12 +96,14 @@ figcaption {
 .calc-container {
     background-color: #e8c0ec;
     /* Calc background is slightly gray and the full width of the page */
-    padding: 22px 22px 50px 22px;
+    padding: 22px 22px 100px 22px;
     /* 22px of vertical padding only */
 }
 
 .calculator .row .item img {
     margin: 5px auto;
+    max-width: 300px;
+    
     /* Air out above and below the image for each item */
 }
 
@@ -135,7 +137,7 @@ figcaption {
 */
 
 .qty_container .unit {
-    flex-basis: 10%;
+    flex-basis: 20%;
     background-color: #CCC;
     padding: 6px 0;
     text-align: center;
@@ -179,7 +181,8 @@ figcaption {
 
 .calculator .row {
     margin-bottom: 15px;
-    flex-basis: 30%;
+    flex-basis: 100%;
+    
 }
 
 
