@@ -32,6 +32,7 @@ body,
 html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 
@@ -41,6 +42,7 @@ figure,
 img {
     /* Sets image width to match parent */
     width: 100%;
+    max-width: 600px;
     display: block;
     margin: 0 auto;
 }
@@ -68,7 +70,7 @@ figcaption {
 
 .container {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     padding: 10px;
     margin: 0 auto;
 }
@@ -92,10 +94,11 @@ figcaption {
 */
 
 .calc-container {
-    background-color: #f7f7f7;
+    background-color: #e8c0ec;
     /* Calc background is slightly gray and the full width of the page */
     padding: 22px 0;
     /* 22px of vertical padding only */
+    margin-bottom: 500px 0;
 }
 
 .calculator .row .item img {

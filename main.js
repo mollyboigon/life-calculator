@@ -25,7 +25,7 @@ inputs.forEach(function (input) { /* input is gonna be the fruit*/
         const this_row = this_input.closest(".row") //closest looks at element first then element's parent if it doesn't match the selector, then grandparent, so forth, till it gets a match
         //will keep working up until it finds div class row
         const sleep = this_row.querySelector(".sleep"); //will find all descendants of this row with the class amazon on them;
-            const sleep_span = amazon.querySelector("span"); // amazon span = go inside of it and find that span that's inside of it
+            const sleep_span = sleep.querySelector("span"); // amazon span = go inside of it and find that span that's inside of it
             const sleep_rate = parseFloat(sleep.dataset.rate);  //amazon.dataset.price captures dataset as a string, parselfoat turns it into float 
                 const sleep_years = qty * sleep_rate;
                 sleep_span.innerHTML = round_number(sleep_years); 
