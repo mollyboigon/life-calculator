@@ -96,9 +96,8 @@ figcaption {
 .calc-container {
     background-color: #e8c0ec;
     /* Calc background is slightly gray and the full width of the page */
-    padding: 22px 0;
+    padding: 22px 22px 50px 22px;
     /* 22px of vertical padding only */
-    margin-bottom: 500px 0;
 }
 
 .calculator .row .item img {
