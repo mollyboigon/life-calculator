@@ -145,31 +145,23 @@ figcaption {
 * We also apply margins to them to air them out
 */
 
-.peapod,
-.freshdirect,
-.amazon {
+.sleep,
+.work,
+.tv,
+.eating {
     margin: 5px 0;
     display: none;
     /*instead of writing it out three times you can apply styles to three divs*/
 }
 
-.peapod.active,
-.freshdirect.active, /*if it has both peapod and active OR freshdirect and active etc*/
-.amazon.active
+.sleep.active,
+.work.active,
+.tv.active, /*if it has both peapod and active OR freshdirect and active etc*/
+.eating.active
 {
     display: block;
 }
 
-.cheap{
-    font-weight: bold;
-    font-size: 1.8em;
-    color: rgb(13, 92, 13)
-}
-
-.cheap:after{
-    font-family: FontAwesome;
-    content: "\f00c";
-}
 /**
 * Remove  the  default margin on the H3
 */
@@ -194,12 +186,6 @@ figcaption {
 * Give the totals row a slightly different background and 100% flex-basis 
 */
 
-.calculator .row.total {
-    display: none;
-    background-color: #ccc;
-    padding: 10px;
-    flex-basis: 100%;
-}
 
 
 /*********************************************************************
